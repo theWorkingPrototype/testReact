@@ -1,0 +1,22 @@
+
+
+
+
+.content {
+  margin: 5% 20%;
+  text-align: left;
+}
+
+
+.grid {
+  display: flex;
+  max-width: 60vw;
+  flex-wrap: wrap;
+}
+
+.gridcard {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 20px;
+}

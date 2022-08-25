@@ -1,0 +1,55 @@
+
+
+
+
+
+.card {
+  margin: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+  border-bottom: 2px solid #777;
+  position: relative;
+}
+
+h2 {
+  margin: 10px 0px;
+  cursor: pointer;
+}
+
+.contactcircle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #777;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+  color: white;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+}
+
+.bookmark {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  background: #EEE;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  color: darkblue;
+}
+
+.borderLeft {
+  border-left: 2px solid darkblue;
+  position: absolute;
+  left: -3%;
+  top: 10%;
+  bottom: 10%;
+}

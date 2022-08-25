@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+.bar {
+  height: 40px;
+  display: flex;
+  font-size: 20px;
+}
+.bold {
+  font-weight: 500;
+}
+.round {
+  border-radius: 20px;
+  color: #333;
+}
+
+.button {
+  padding: 10px;
+  height: 40px;
+  display: flex;
+  margin-left: calc(min(15px, 5%));
+  margin-bottom: 5px;
+  align-items: center;
+  border: 1px solid #ccc;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.page {
+  display: flex;
+  width: 100%;
+  min-height: 500px;
+  border-top: #BBB solid 1px;
+}
+
+.left-page {
+  align-self: flex-start;
+  max-width: 350px;
+  flex-grow: 1;
+  height: 100%;
+}
+
+.right-page {
+  align-self: stretch;
+  flex-grow: 3;
+  border-left: #BBB solid 2px;
+}
